@@ -96,12 +96,12 @@ const TopBar = () => {
                                 initial={{ scale: 0, opacity: 0 }}
                                 animate={{ scale: 1, opacity: 1 }}
                                 exit={{ scale: 0, opacity: 0 }}
-                                className='absolute shadow   top-full flex flex-col '>
+                                className='absolute shadow z-200  top-full flex flex-col bg-pink-100 '> 
                                 <span onClick={() => diliSec("Türkçe")} className='py-1 pl-2 pr-2 flex justify-start 
                                 hover:bg-gray-200 transition-colors items-center gap-1'> <img src="/img/Türkçe-icon.png" alt="" className='w-5' />Türkçe</span>
                                 <span onClick={() => diliSec("English")} className='py-1 pl-2 pr-2 flex justify-start items-center gap-1  hover:bg-gray-200 transition-colors'>          <img src="/img/English-icon.png" alt="" className='w-5' />English</span>
                                 <span onClick={() => diliSec("Français")} className='py-1 pl-2 pr-4 flex justify-start items-center gap-1  hover:bg-gray-200 transition-colors'>          <img src="/img/Français-icon.png" alt="" className='w-5' />Français</span>
-                                <span onClick={() => diliSec("Deutsch")} className='py-1 pl-2 pr-2 flex justify-start items-center gap-1  hover:bg-gray-200 transition-colors'>          <img src="/img/Deutsch-icon.png" alt="" className='w-5' />Deutsch</span>
+                                <span onClick={() => diliSec("Deutsch")} className='py-1 pl-2 pr-2 flex justify-start items-center gap-1  hover:bg-gray-200 transition-colors'>          <img src="/img/Deutsch-icon.png " alt="" className='w-5' />Deutsch</span>
                             </motion.div>)}
                     </AnimatePresence>
                 </div>
@@ -116,7 +116,7 @@ const TopBar = () => {
                                 initial={{ scale: 0, opacity: 0 }}
                                 animate={{ scale: 1, opacity: 1 }}
                                 exit={{ scale: 0, opacity: 0 }}
-                                className='absolute shadow   top-full flex flex-col '>
+                                className='absolute shadow z-10 bg-pink-100 top-full flex flex-col '>
                                 <span onClick={() => paraSec("TRY")} className='py-1 pl-2 pr-2 flex justify-start 
                                 hover:bg-gray-200 transition-colors items-center gap-1'>          <img src="/img/TRY-icon.png" alt="" className='w-5' />TRY</span>
                                 <span onClick={() => paraSec("USD")} className='py-1 pl-2 pr-2 flex justify-start items-center gap-1  hover:bg-gray-200 transition-colors'>          <img src="/img/USD-icon.png" alt="" className='w-5' />USD</span>
